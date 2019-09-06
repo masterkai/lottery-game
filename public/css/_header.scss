@@ -1,0 +1,10 @@
+header {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  @include breakpoint($ipad) {
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+  }
+}

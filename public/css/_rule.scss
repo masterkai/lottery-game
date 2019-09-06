@@ -1,0 +1,22 @@
+.rule {
+  background-color: $ruleColor;
+
+  .rule__box {
+    max-width: 882px;
+    margin: 30px auto;
+    ol {
+      color: #fff;
+      li {
+        margin-left: 20px;
+        list-style: decimal;
+        line-height: 2;
+      }
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    color: #e8ff00;
+  }
+
+}

@@ -1,0 +1,57 @@
+.mi-fix {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, .65);
+  z-index: 111;
+
+  .mi-fix-box {
+    position: relative;
+    height: 440px;
+    width: 500px;
+    margin: 140px auto;
+
+    .mi-fix-close {
+      &:hover {
+        opacity: 1;
+      }
+
+      opacity: 0.5;
+      cursor: pointer;
+      position: absolute;
+      right: 40px;
+      top: 70px;
+    }
+
+    .mi-button {
+      cursor: pointer;
+      position: absolute;
+      left: 50%;
+      transform: translate(-70px, 0px);
+      bottom: 18px;
+    }
+
+    .mi-reward-content {
+      position: absolute;
+      top: 220px;
+      left: 50%;
+      transform: translateX(-45%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .mi-resultTxt {
+
+      }
+
+      img.mi-fix-reward {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
